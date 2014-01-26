@@ -17,3 +17,5 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 1. [ClassCertificates](https://github.com/eightamrock/bignerdranch/tree/master/ClassCertificates)
 2. [TurkeyTimer](https://github.com/eightamrock/bignerdranch/tree/master/TurkeyTimer)
 3. [BeerSong](https://github.com/eightamrock/bignerdranch/tree/master/BeerSong)
+4. [Degrees](https://github.com/eightamrock/bignerdranch/tree/master/Degrees)
+5. [Triangle](https://github.com/eightamrock/bignerdranch/tree/master/Triangle)
