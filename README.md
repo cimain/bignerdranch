@@ -15,4 +15,5 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 ### Chapter 5 Exercises
 
 1. [ClassCertificates](https://github.com/eightamrock/bignerdranch/tree/master/ClassCertificates)
-
+2. [TurkeyTimer](https://github.com/eightamrock/bignerdranch/tree/master/TurkeyTimer)
+3. [BeerSong](https://github.com/eightamrock/bignerdranch/tree/master/BeerSong)
