@@ -12,4 +12,7 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 1. [Turkey](https://github.com/eightamrock/bignerdranch/tree/master/Turkey)
 2. [TwoFloats](https://github.com/eightamrock/bignerdranch/tree/master/TwoFloats)
 
+### Chapter 5 Exercises
+
+1. [ClassCertificates](https://github.com/eightamrock/bignerdranch/tree/master/ClassCertificates)
 
