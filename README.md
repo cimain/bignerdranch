@@ -29,3 +29,7 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 1. [Numbers](https://github.com/eightamrock/bignerdranch/tree/master/Numbers)
   * This includes all the number exercises and the challenge 
 
+### Chapter 8 Exercises
+
+1. [Coolness](https://github.com/eightamrock/bignerdranch/tree/master/Coolness)
+2. [CountDown]((https://github.com/eightamrock/bignerdranch/tree/master/CountDown)
