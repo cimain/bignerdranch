@@ -32,4 +32,4 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 ### Chapter 8 Exercises
 
 1. [Coolness](https://github.com/eightamrock/bignerdranch/tree/master/Coolness)
-2. [CountDown]((https://github.com/eightamrock/bignerdranch/tree/master/CountDown)
+2. [CountDown](https://github.com/eightamrock/bignerdranch/tree/master/CountDown)
