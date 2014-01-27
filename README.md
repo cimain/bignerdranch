@@ -23,3 +23,9 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 ### Chapter 6 Exercise 
 
 1. [Squared](https://github.com/eightamrock/bignerdranch/tree/master/Squared)
+
+### Chapter 7 Exercise
+
+1. [Numbers](https://github.com/eightamrock/bignerdranch/tree/master/Numbers)
+  * This includes all the number exercises and the challenge 
+
