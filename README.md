@@ -19,3 +19,7 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 3. [BeerSong](https://github.com/eightamrock/bignerdranch/tree/master/BeerSong)
 4. [Degrees](https://github.com/eightamrock/bignerdranch/tree/master/Degrees)
 5. [Triangle](https://github.com/eightamrock/bignerdranch/tree/master/Triangle)
+
+### Chapter 6 Exercise 
+
+1. [Squared](https://github.com/eightamrock/bignerdranch/tree/master/Squared)

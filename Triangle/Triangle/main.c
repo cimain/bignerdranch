@@ -29,8 +29,8 @@ float remainingAngle( float angleA, float angleB)
 int main(int argc, const char * argv[])
 {
 	// Set angles and get the remaining angle.
-	float angleA = 90.0;
-	float angleB = 90.0;
+	float angleA = 30.0;
+	float angleB = 60.0;
 	float angleC = remainingAngle(angleA, angleB);
 	// output the success
 	printf("The remaining angle is %f degrees \n", angleC);
