@@ -8,11 +8,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <readline/readline.h>
 
 int main(int argc, const char * argv[])
 {
-	// Do it with while first
-	int i = 99;
+	
+	printf("Enter a number to count down from: ");
+	int countStart = atoi(readline(NULL));
+	
+	int i = countStart;
 	while (i >= 0) {
 		printf("%d \n", i);
 		if (i%5 == 0) {
@@ -22,7 +26,7 @@ int main(int argc, const char * argv[])
 	}
 	
 	// now for loop, cleaner
-	for (int n = 99; n >= 0; n -= 3) {
+	for (int n = countStart; n >= 0; n -= 3) {
 		printf("%d \n", n);
 		if (n % 5 == 0) {
 			printf("Found one! \n");
@@ -30,7 +34,7 @@ int main(int argc, const char * argv[])
 	}
 	
 	// now do / while
-	int x = 99;
+	int x = countStart;
 	do  {
 		printf("%d \n", x);
 		if (x % 5 == 0) {
