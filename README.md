@@ -33,3 +33,9 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 
 1. [Coolness](https://github.com/eightamrock/bignerdranch/tree/master/Coolness)
 2. [CountDown](https://github.com/eightamrock/bignerdranch/tree/master/CountDown)
+
+### Chapter 9 Exercises
+
+1. [Addresses](https://github.com/eightamrock/bignerdranch/tree/master/Addresses)
+2. [HowMuchMemory](https://github.com/eightamrock/bignerdranch/tree/master/HowMuchMemory)
+
