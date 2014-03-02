@@ -16,3 +16,7 @@
 *.exe
 *.out
 *.app
+
+# Xcode proj files
+*.xcodeproj
+
