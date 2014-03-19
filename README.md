@@ -48,3 +48,8 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 1. [BMI Calculator](https://github.com/eightamrock/bignerdranch/tree/master/BMICalc)
 2. [Time Challenge](https://github.com/eightamrock/bignerdranch/tree/master/TimeChallenge)
 
+### Chapter 12 Examples
+
+1. [The Heap](https://github.com/eightamrock/bignerdranch/tree/master/TheHeap)
+    * Includes both examples from the chapter
+
