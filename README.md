@@ -43,3 +43,8 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 
 1. [PBR](https://github.com/eightamrock/bignerdranch/tree/master/PBR)
 
+### Chapter 11 Exercises
+
+1. [BMI Calculator](https://github.com/eightamrock/bignerdranch/tree/master/BMICalc)
+2. [Time Challenge](https://github.com/eightamrock/bignerdranch/tree/master/TimeChallenge)
+
