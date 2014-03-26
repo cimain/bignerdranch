@@ -52,4 +52,9 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 
 1. [The Heap](https://github.com/eightamrock/bignerdranch/tree/master/TheHeap)
     * Includes both examples from the chapter
+	
+### Chapter 13 Examples
+
+1. [Time After Time](https://github.com/eightamrock/bignerdranch/tree/master/TimeAfterTime)
+2. [Computer Name Challenge](https://github.com/eightamrock/bignerdranch/tree/master/ComputerName)
 
