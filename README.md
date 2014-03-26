@@ -59,6 +59,6 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 2. [Computer Name Challenge](https://github.com/eightamrock/bignerdranch/tree/master/ComputerName)
 
 ### Chapter 14 Examples
-	* Most of chapter 14 was written into [TimeAfterTime](https://github.com/eightamrock/bignerdranch/tree/master/TimeAfterTime) exercise from Chapter 13
+* Most of chapter 14 was written into [TimeAfterTime](https://github.com/eightamrock/bignerdranch/tree/master/TimeAfterTime) exercise from Chapter 13
 1. [Seconds Since Birth Challenge](https://github.com/eightamrock/bignerdranch/tree/master/SecondsAlive)
 
