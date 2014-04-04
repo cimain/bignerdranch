@@ -48,17 +48,26 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 1. [BMI Calculator](https://github.com/eightamrock/bignerdranch/tree/master/BMICalc)
 2. [Time Challenge](https://github.com/eightamrock/bignerdranch/tree/master/TimeChallenge)
 
-### Chapter 12 Examples
+### Chapter 12 Exercises
 
 1. [The Heap](https://github.com/eightamrock/bignerdranch/tree/master/TheHeap)
     * Includes both examples from the chapter
 	
-### Chapter 13 Examples
+### Chapter 13 Exercises
 
 1. [Time After Time](https://github.com/eightamrock/bignerdranch/tree/master/TimeAfterTime)
 2. [Computer Name Challenge](https://github.com/eightamrock/bignerdranch/tree/master/ComputerName)
 
-### Chapter 14 Examples
+### Chapter 14 Exercises
 * Most of chapter 14 was written into [TimeAfterTime](https://github.com/eightamrock/bignerdranch/tree/master/TimeAfterTime) exercise from Chapter 13
 1. [Seconds Since Birth Challenge](https://github.com/eightamrock/bignerdranch/tree/master/SecondsAlive)
+
+### Chapter 15 Exercises
+
+1. [TimesTwo](https://github.com/eightamrock/bignerdranch/tree/master/TimesTwo)
+
+### Chapter 16 Exercises
+
+1. [Readline](https://github.com/eightamrock/bignerdranch/tree/master/Readline)
+
 
