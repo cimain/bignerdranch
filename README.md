@@ -70,4 +70,10 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 
 1. [Readline](https://github.com/eightamrock/bignerdranch/tree/master/Readline)
 
+### Chapter 17 Exercises
+
+1. [DateList](https://github.com/eightamrock/bignerdranch/tree/master/DateList)
+2. [Groceries](https://github.com/eightamrock/bignerdranch/tree/master/Groceries)
+3. [NameFinder](https://github.com/eightamrock/bignerdranch/tree/master/NameFinder)
+
 
