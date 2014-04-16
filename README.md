@@ -76,4 +76,8 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 2. [Groceries](https://github.com/eightamrock/bignerdranch/tree/master/Groceries)
 3. [NameFinder](https://github.com/eightamrock/bignerdranch/tree/master/NameFinder)
 
+### Chapter 18 Exercises
+
+1. [BMITime](https://github.com/eightamrock/bignerdranch/tree/master/BMITime)
+2. [Stocks](https://github.com/eightamrock/bignerdranch/tree/master/Stocks)
 
