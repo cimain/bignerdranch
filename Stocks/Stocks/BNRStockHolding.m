@@ -38,7 +38,7 @@
     return [self purchaseSharePrice] * [self numberOfShares];
 }
 
--(float)valueInDollars {
+- (float)valueInDollars {
     return [self currentSharePrice] * [self numberOfShares];
 }
 
