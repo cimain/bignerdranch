@@ -81,3 +81,14 @@ Example Programs from the Big Nerd Ranch Objective-C Book
 1. [BMITime](https://github.com/eightamrock/bignerdranch/tree/master/BMITime)
 2. [Stocks](https://github.com/eightamrock/bignerdranch/tree/master/Stocks)
 
+## Chapter 19 Exercises 
+See Chapter 18 Exercises with changes
+
+1. [BMITime](https://github.com/eightamrock/bignerdranch/tree/master/BMITime)
+
+## Chapter 20 Exercises
+See Chapter 18 Exercises with changes
+
+1. [BMITime](https://github.com/eightamrock/bignerdranch/tree/master/BMITime)
+2. [Stocks](https://github.com/eightamrock/bignerdranch/tree/master/Stocks)
+

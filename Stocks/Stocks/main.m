@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BNRStockHolding.h"
+#import "BNRForeignStockHolding.h"
 
 int main(int argc, const char * argv[])
 {
@@ -33,6 +33,31 @@ int main(int argc, const char * argv[])
             float value = [n valueInDollars];
 			int shares = [n numberOfShares];
             NSLog(@"%d shares purchased at %.2f each was %.2f, the value is %.2f at %.2f per share", shares, purchase, cost, value, current);
+        }
+		
+		NSArray *foreignHoldings = [NSArray array];
+        
+		// Im not sure this is best, but it creates a random dynamic array of values.
+        for (int n = 0; n < 3; n++) {
+            BNRForeignStockHolding *holding = [[BNRForeignStockHolding alloc] init];
+            [holding setNumberOfShares:(int)arc4random_uniform(500)];
+            [holding setPurchaseSharePrice:((float)arc4random() / RAND_MAX) * 10];
+            [holding setCurrentSharePrice:((float)arc4random() / RAND_MAX) * 10];
+			holding.conversionRate = ((float)arc4random() /RAND_MAX) * .1;
+            foreignHoldings = [foreignHoldings arrayByAddingObject:holding];
+        }
+		
+		// Fast enumeration through the array of BNRStockHolding objects
+		for (BNRForeignStockHolding *n in foreignHoldings) {
+			float purchase = [n purchaseSharePrice];
+			float current = [n currentSharePrice];
+            float cost = [n costInDollars];
+            float value = [n valueInDollars];
+			int shares = [n numberOfShares];
+			float conversionRate = n.conversionRate;
+            NSLog(@"%d shares purchased at %.2f each was %.2f, the value is %.2f \
+				  at %.2f per share, the converstion rate is %.2f",
+				  shares, purchase, cost, value, current, conversionRate);
         }
 
     }
