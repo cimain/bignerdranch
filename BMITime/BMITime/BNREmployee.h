@@ -8,13 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "BNRPerson.h"
+@class BNRAsset;
 
 @interface BNREmployee : BNRPerson
 
 @property (nonatomic) int employeeID;
-@property (nonatomic) int officeAlarmCode;
 @property (nonatomic) NSDate *hireDate;
+@property (nonatomic, copy) NSSet *assets;
 
 - (double)yearsOfEmployment;
+- (void)addAsset:(BNRAsset *)a;
+- (void)removeAsset:(BNRAsset *)a;
+- (unsigned int)valueOfAssets;
 
 @end

@@ -15,6 +15,8 @@
     int _numberOfShares;
 }
 
+@property (nonatomic) NSString *symbol;
+
 // Purchase Share price
 - (float)purchaseSharePrice;
 - (void)setPurchaseSharePrice:(float) price;
