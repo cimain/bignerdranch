@@ -17,10 +17,22 @@ int main(int argc, const char * argv[])
 	    
 		NSMutableArray *items = [[NSMutableArray alloc] init];
 
-        for (int i = 0; i < 10; i++) {
-            BNRItem *item = [BNRItem randomItem];
-            [items addObject:item];
-        }
+        BNRItem *backpack = [[BNRItem alloc] initWithItemName:@"Backpack"];
+        [items addObject:backpack];
+        
+        BNRItem *calculator = [[BNRItem alloc] initWithItemName:@"Calculator"];
+        [items addObject:calculator];
+        
+        backpack.containedItem = calculator;
+        
+        backpack = nil;
+        calculator = nil;
+        
+        
+//        for (int i = 0; i < 10; i++) {
+//            BNRItem *item = [BNRItem randomItem];
+//            [items addObject:item];
+//        }
         
 //        id lastObj = [items lastObject];
 //        // Exception test
@@ -61,6 +73,7 @@ int main(int argc, const char * argv[])
 //        NSLog(@"%@", itemWithNoName);
 		
 		//Kill the array
+        NSLog(@"Setting Items to nil...");
 		items = nil;
 	}
     return 0;

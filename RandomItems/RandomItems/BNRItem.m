@@ -76,6 +76,27 @@
 	return _itemName;
 }
 
+//accessors for containers
+-(void)setContainedItem:(BNRItem *)item {
+    _containedItem = item;
+    
+    // When given a contained item
+    // the item will be given a pointer to its container
+    item.container = self;
+}
+
+-(BNRItem *)containedItem {
+    return _containedItem;
+}
+
+-(void)setContainer:(BNRItem *)item {
+    _container = item;
+}
+
+-(BNRItem *)container {
+    return _container;
+}
+
 // accessor implementation for serial number
 -(void)setSerialNumber:(NSString *)str {
 	_serialNumber = str;
@@ -102,6 +123,11 @@
 								   self.valueInDollars,
 								   self.dateCreated];
 	return descriptionString;
+}
+
+// override
+- (void) dealloc {
+    NSLog(@"Destroyed: %@", self);
 }
 
 @end
